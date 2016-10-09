@@ -2,7 +2,7 @@ module.exports =
   config:
     maxFilesToRemember:
       type: 'number'
-      default: 50
+      default: 10
       minimum: 1
     restoreSession:
       description: 'Set to true to remember recent files between sessions (i.e. after Atom is closed and re-opened)'
